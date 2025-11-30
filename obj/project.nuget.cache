@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "OpzxRnZCrwQ=",
+  "success": true,
+  "projectFilePath": "/home/sh/Documents/fanganrompa/fanganrompa.csproj",
+  "expectedPackageFiles": [
+    "/home/sh/.nuget/packages/raylib/5.5.0/raylib.5.5.0.nupkg.sha512",
+    "/home/sh/.nuget/packages/raylib-cs/7.0.2/raylib-cs.7.0.2.nupkg.sha512",
+    "/home/sh/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
