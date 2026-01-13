@@ -9,6 +9,7 @@ namespace fanganrompa;
 
 public class MeshModel : Component
 {
+    public override int CompID => 10;
     Model watermill;
     Model watermillBackface;
     Shader outline;

@@ -20,3 +20,4 @@
 /home/sh/Documents/fanganrompa/obj/Debug/net9.0/fanganrompa.pdb
 /home/sh/Documents/fanganrompa/obj/Debug/net9.0/fanganrompa.genruntimeconfig.cache
 /home/sh/Documents/fanganrompa/obj/Debug/net9.0/ref/fanganrompa.dll
+/home/sh/Documents/fanganrompa/obj/Debug/net9.0/fanganrompa.sourcelink.json

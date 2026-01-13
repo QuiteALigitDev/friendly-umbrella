@@ -30,6 +30,7 @@ using static Raylib_cs.Raylib;
 using Raylib_cs;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
+using System.Data;
 
 namespace fanganrompa;
 
@@ -47,6 +48,7 @@ public class BasicLighting
         //Register Components
         ComponentManager.AddComponent(new MeshModel());
         ComponentManager.AddComponent(new MainCamera());
+        ComponentManager.AddComponent(new PlayerController());
 
         // Enable Multi Sampling Anti Aliasing 4x (if available)
         SetConfigFlags(ConfigFlags.Msaa4xHint);
@@ -85,11 +87,9 @@ public class BasicLighting
         // Main game loop
         while (!WindowShouldClose())
         {
-            UpdateCamera(ref GlobalAssets.MainCamera, CameraMode.FirstPerson);
-            Raylib.DisableCursor();
+            //UpdateCamera(ref GlobalAssets.MainCamera, CameraMode.FirstPerson);
+            //Raylib.DisableCursor();
 
-            //----------------------------------------------------------------------------------
-            //UpdateCamera(ref GlobalAssets.MainCamera, CameraMode.Orbital);
 
             SetShaderValue(GlobalAssets.MainShader, Camloc, GlobalAssets.MainCamera.Target, ShaderUniformDataType.Vec3);
 

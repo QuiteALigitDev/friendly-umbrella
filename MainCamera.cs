@@ -8,6 +8,10 @@ namespace fanganrompa;
 
 public class MainCamera : Component
 {
+    public override int CompID => 0;
+    public Vector3 Rotation = new();
+    public Vector3 Transform = new();
+    public float Zoom = new();
 
     public override void Start() 
     {
@@ -17,9 +21,12 @@ public class MainCamera : Component
         GlobalAssets.MainCamera.FovY = 45.0f;
         GlobalAssets.MainCamera.Projection = CameraProjection.Perspective;
     }
-
+    public void MouseLock(bool locked){
+        if (locked){Raylib.DisableCursor();}else{Raylib.EnableCursor();}
+    }
     public override void Update()
     {
-        
+        //ComponentManager.Log(Rotation.ToString());
+        Raylib.UpdateCameraPro(ref GlobalAssets.MainCamera, Transform, Rotation, Zoom);   
     }
 }

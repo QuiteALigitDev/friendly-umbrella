@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fanganrompa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56d7a771a17522e71b9fac550a31febb2b233b8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("fanganrompa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fanganrompa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
